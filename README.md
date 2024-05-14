@@ -2,7 +2,7 @@
 This program re-organizes/changes existing class labels. For example, say you have a labelled dataset with classes `0, 1, 2`. And for some reason, you wish to change class `0` to `5` in all the labels, then this program can do that in just few clicks.
 
 It contains one source code file: `organizer.cpp`
-Compile that using a GCC compiler using command in the directory that has the folder containing the label (.txt) files.
+Compile that using the GCC compiler using command in the directory that has the folder containing the label (.txt) files. Note that this program should compile on a Windows system only.
 
 `gcc organizer.c`
 
